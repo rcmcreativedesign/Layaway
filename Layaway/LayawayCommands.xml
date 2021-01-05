@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="https://schemas.microsoft.com/voicecommands/1.2">
+	<CommandSet xml:lang="en-us" Name="LayawayCommandSet_en-us">
+		<AppName>Layaway</AppName>
+		<Example>Show first item</Example>
+
+		<Command Name="showFirstItem">
+			<Example>Show first item</Example>
+			<ListenFor RequireAppName="BeforeOrAfterPhrase">show [my] first item</ListenFor>
+			<ListenFor RequireAppName="ExplicitlySpecified">show [my] {builtin:AppName} first item</ListenFor>
+			<Feedback>Showing first item</Feedback>
+			<Navigate />
+		</Command>
+	</CommandSet>
+</VoiceCommands>

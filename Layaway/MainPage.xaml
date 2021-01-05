@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Layaway.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Layaway"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel>
+            <Button x:Name="CreateSecondaryTile" Content="Create Secondary Tile" Click="CreateSecondaryTile_Click" RelativePanel.AlignTopWithPanel="True" Margin="0,8,0,8" />
+            <Button x:Name="DeleteSecondaryTile" Content="Delete Secondary Tile" Click="DeleteSecondaryTile_Click" RelativePanel.Below="CreateSecondaryTile" Margin="0,8,0,8" />
+            <TextBox x:Name="KeyboardTest" InputScope="Digits"  RelativePanel.Below="DeleteSecondaryTile"/>
+            <TextBlock x:Name="KeyboardTestResult" RelativePanel.RightOf="CreateSecondaryTile" Margin="8" />
+        </RelativePanel>
+    </Grid>
+</Page>
