@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Layaway")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("RCM Creative Design")]
 [assembly: AssemblyProduct("Layaway")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright ©  2020 RCM Creative Design")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
